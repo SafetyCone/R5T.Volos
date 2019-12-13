@@ -4,4 +4,8 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <NoWarn>1701;1702;1591;1573</NoWarn>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.Heraklion.Default\source\R5T.Heraklion.Default\R5T.Heraklion.Default.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Piraeus.StringBuilder\source\R5T.Piraeus.StringBuilder\R5T.Piraeus.StringBuilder.csproj" />
+  </ItemGroup>
 </Project>

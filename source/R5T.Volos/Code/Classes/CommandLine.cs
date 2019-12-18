@@ -9,7 +9,8 @@ namespace R5T.Volos
 {
     public static class CommandLine
     {
-        public static ICommandBuilderContext<TContext> New<TContext>()
+
+        public static ICommandBuilderContext<TContext> Start<TContext>()
         {
             var commandBuilder = new StringBuilderBasedCommandBuilder();
 
